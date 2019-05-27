@@ -14,6 +14,9 @@
 		20A1A0AF229C085000E8CA1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A1A0AD229C085000E8CA1F /* LaunchScreen.storyboard */; };
 		20A1A0BA229C09A800E8CA1F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A1A0B8229C09A800E8CA1F /* LoginViewController.swift */; };
 		20A1A0BB229C09A800E8CA1F /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A1A0B9229C09A800E8CA1F /* LoginViewController.xib */; };
+		20A1A0BD229C9EAB00E8CA1F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A1A0BC229C9EAB00E8CA1F /* CustomTextField.swift */; };
+		20A1A0C3229CA14C00E8CA1F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A1A0C1229CA14C00E8CA1F /* HomeViewController.swift */; };
+		20A1A0C4229CA14C00E8CA1F /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A1A0C2229CA14C00E8CA1F /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		20A1A0B0229C085000E8CA1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20A1A0B8229C09A800E8CA1F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		20A1A0B9229C09A800E8CA1F /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		20A1A0BC229C9EAB00E8CA1F /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		20A1A0C1229CA14C00E8CA1F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		20A1A0C2229CA14C00E8CA1F /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,7 @@
 		20A1A0B6229C098200E8CA1F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				20A1A0BF229CA11300E8CA1F /* Library */,
 				20A1A0B7229C099100E8CA1F /* Modules */,
 			);
 			path = Classes;
@@ -80,10 +87,37 @@
 		20A1A0B7229C099100E8CA1F /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				20A1A0C0229CA12700E8CA1F /* Home */,
+				20A1A0BE229CA10C00E8CA1F /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		20A1A0BE229CA10C00E8CA1F /* Login */ = {
+			isa = PBXGroup;
+			children = (
 				20A1A0B8229C09A800E8CA1F /* LoginViewController.swift */,
 				20A1A0B9229C09A800E8CA1F /* LoginViewController.xib */,
 			);
-			path = Modules;
+			path = Login;
+			sourceTree = "<group>";
+		};
+		20A1A0BF229CA11300E8CA1F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				20A1A0BC229C9EAB00E8CA1F /* CustomTextField.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		20A1A0C0229CA12700E8CA1F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				20A1A0C1229CA14C00E8CA1F /* HomeViewController.swift */,
+				20A1A0C2229CA14C00E8CA1F /* HomeViewController.xib */,
+			);
+			name = Home;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +180,7 @@
 			files = (
 				20A1A0BB229C09A800E8CA1F /* LoginViewController.xib in Resources */,
 				20A1A0AF229C085000E8CA1F /* LaunchScreen.storyboard in Resources */,
+				20A1A0C4229CA14C00E8CA1F /* HomeViewController.xib in Resources */,
 				20A1A0AC229C085000E8CA1F /* Assets.xcassets in Resources */,
 				20A1A0AA229C084E00E8CA1F /* Main.storyboard in Resources */,
 			);
@@ -158,6 +193,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A1A0C3229CA14C00E8CA1F /* HomeViewController.swift in Sources */,
+				20A1A0BD229C9EAB00E8CA1F /* CustomTextField.swift in Sources */,
 				20A1A0BA229C09A800E8CA1F /* LoginViewController.swift in Sources */,
 				20A1A0A7229C084E00E8CA1F /* ViewController.swift in Sources */,
 				20A1A0A5229C084E00E8CA1F /* AppDelegate.swift in Sources */,
